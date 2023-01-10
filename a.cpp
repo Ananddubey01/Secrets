@@ -56,6 +56,7 @@ struct SegTree
   }
 
 // hello
+// hi
   Data Query(int node, int L, int R, int i, int j)
   {
     if (cLazy[node])
