@@ -55,6 +55,7 @@ struct SegTree
     merge(st[node], st[node * 2], st[node * 2 + 1]);
   }
 
+// hello
   Data Query(int node, int L, int R, int i, int j)
   {
     if (cLazy[node])
